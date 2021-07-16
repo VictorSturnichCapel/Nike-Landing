@@ -124,7 +124,13 @@ header{
     transition: 3s;
     transform: translateY(-25px);
 }
-  
+.preco-antigo{
+    display: block;
+    padding: 0 20px;
+    margin-top: 10px;
+    text-decoration: line-through;
+    font-size: 14px;
+}
 .card-topo {
     position: relative;
     height: 252px;
