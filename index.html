@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+        <title>Nike - New Releases</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="assets/script/script.js"></script>
+    </head>
+    <body>
+        
+        <header>
+            <a href="https://www.nike.com.br/"><svg class="logo" alt="logo" height="60px" width="60px" fill="#111" viewBox="0 0 69 32"><path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path></svg></a>
+        </header>
+        <section class="invitationAlert">
+            <div class="container">
+                <h2>Just do it.</h2>
+                <p>Fique por dentro das novidades</p>
+                <form class="formulario" id="form">
+                    <input type="text" class="inputFormulario" placeholder="Seu nome" id="nome" required="">
+                    <input type="email" class="inputFormulario" placeholder="E-mail" id="email" required="">
+                    <label class="aceite"><input type="checkbox" id="checkbox">
+                        Aceito receber mensagens. </label>                                
+                    <input type="submit" onclick="cadastrarCliente()" name="enviar" value="CADASTRAR" id="submit">
+                </form>
+                
+                <div class="bolhaEsquerda"></div>
+                <div class="bolhaDireita"></div>
+            </div>
+        </section>
+        <section class="cards">
+            <div class="bolhacentro"></div>
+            <div class="container">
+                <h3 class="titulo">Black Friday!<br>Em busca do <strong>OURO</strong> olímpico</h3>
+                <div class="conjuntocards">
+                    <div class="card">
+                        <div class="card-head">
+                            <svg class="card-logo" alt="logo" height="32px" width="60px" fill="#fff" viewBox="0 0 69 32"><path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path></svg>
+                            <img src="assets/image/tenis1.png" alt="Shoe" class="product-img">
+                            <div class="product-detail">
+                                <h2>Air Zoom Alphafly</h2> Support and Air Zoom Alphafly come together for a more supportive feel with high-speed responsiveness
+                            </div>
+                            <span class="back-text">RUN</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="product-desc">
+                                <span class="product-title">
+                                    Air Zoom <b>Alphafly</b>
+                                        <span class="badge">NEW</span>
+                                </span>
+                                <span class="product-caption">Runner Collection</span>
+                            </div>
+                            <span class="product-price">R$ 1.719,99</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-head">
+                            <svg class="card-logo" alt="logo" height="32px" width="60px" fill="#fff" viewBox="0 0 69 32"><path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path></svg>
+                            <img src="assets/image/tenis2.png" alt="Shoe" class="product-img">
+                            <div class="product-detail">
+                                <h2>Jordan XXXV</h2> Support and Nike Jordan XXXV come together for a more supportive feel with high-confort
+                            </div>
+                            <span class="back-text">BAS</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="product-desc">
+                                <span class="product-title">
+                                    Air Jordan <b>XXXV</b>
+                                    <span class="badge">NEW</span>
+                                </span>
+                                <span class="product-caption">Basket Ball Collection</span>
+                            </div>
+                            <span class="product-price">R$ 1.099,99</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-head">
+                            <svg class="card-logo" alt="logo" height="32px" width="60px" fill="#fff" viewBox="0 0 69 32"><path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path></svg>
+                            <img src="assets/image/tenis3.png" alt="Shoe" class="product-img">
+                            <div class="product-detail">
+                                <h2>Superfly 8</h2> Support and Nike Superfly 8 Elite come together for a more supportive feel with high-speed responsiveness
+                            </div>
+                            <span class="back-text">FUT</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="product-desc">
+                                <span class="product-title">
+                                    Mercurial <b>Superfly 8</b>
+                                    <span class="badge">New</span>
+                                </span>
+                                <span class="product-caption">Soccer Collection</span>
+                            </div>
+                            <span class="product-price">R$ 1.799,99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            © 2021 Nike. Todos os direitos reservados. Fisia Comércio de Produtos Esportivos Ltda - CNPJ: 59.546.515/0016-10 Rua José Semião Rodrigues Agostinho, 1370 - Galpão Unidade 17 - Nível 0, 1 e 2 - CEP 06833-300 - Embu das Artes/SP.
+        </footer>
+    </body>
+</html>
